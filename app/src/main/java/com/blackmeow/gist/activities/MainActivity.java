@@ -1,5 +1,6 @@
 package com.blackmeow.gist.activities;
 
+import android.app.AlertDialog;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
@@ -25,6 +26,14 @@ public class MainActivity extends ActionBarActivity{
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        if (getString(R.string.primaryKey).startsWith("Please")) {
+            new AlertDialog.Builder(this)
+                    .setTitle(getString(R.string.add_subscription_key_tip_title))
+                    .setMessage(getString(R.string.add_subscription_key_tip))
+                    .setCancelable(false)
+                    .show();
+        }
 
         pager = (ViewPager) findViewById(R.id.pager);
         pager.setAdapter(new MyAdapter(getSupportFragmentManager()));

@@ -6,24 +6,27 @@
     </shared>
   </component>
   <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CUSTOM_FILTER" value="activity" />
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="INFO" />
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="93b3c551-8634-4a67-90b6-37f48f533caf" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/speechrecognition_0_6_0.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/speechrecognition_0_6_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/speechrecognition_1_1_0.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/cache.properties.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/fileSnapshots.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/outputFileStates.bin" afterPath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/outputFileStates.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/taskArtifacts.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build.gradle" afterPath="$PROJECT_DIR$/app/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/blackmeow/gist/RecordingService.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/blackmeow/gist/RecordingService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/blackmeow/gist/activities/MainActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/blackmeow/gist/activities/MainActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/blackmeow/gist/fragments/RecordFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/blackmeow/gist/fragments/RecordFragment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_record.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_record.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/card_view.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/card_view.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" />
     </list>
     <ignored path="Gist.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -44,62 +47,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="RecordingService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/blackmeow/gist/RecordingService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="141" column="30" selection-start-line="141" selection-start-column="30" selection-end-line="141" selection-end-column="30" />
-              <folding>
-                <element signature="e#3878#4301#0" expanded="true" />
-                <element signature="e#4300#4301#0" expanded="true" />
-              </folding>
-            </state>
+      <file leaf-file-name="card_view.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/card_view.xml">
+          <provider selected="true" editor-type-id="android-designer">
+            <state />
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RecordFragment.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/blackmeow/gist/fragments/RecordFragment.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5442561">
-              <caret line="17" column="57" selection-start-line="17" selection-start-column="57" selection-end-line="17" selection-end-column="57" />
-              <folding>
-                <element signature="e#4584#4614#0" expanded="true" />
-                <element signature="e#5064#5295#0" expanded="true" />
-                <element signature="e#5294#5295#0" expanded="true" />
-                <element signature="e#5563#5601#0" expanded="true" />
-                <element signature="e#5985#6018#0" expanded="true" />
-                <element signature="e#6564#6607#0" expanded="true" />
-                <element signature="e#6958#7000#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-12.481482">
-              <caret line="45" column="62" selection-start-line="45" selection-start-column="62" selection-end-line="45" selection-end-column="62" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RecordingItem.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/blackmeow/gist/RecordingItem.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DBHelper.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/blackmeow/gist/DBHelper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <provider editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-30.038462">
+              <caret line="61" column="27" selection-start-line="61" selection-start-column="27" selection-end-line="61" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -766,9 +721,9 @@
                 <option name="name" value="prepareComMelnykovFloatingactionbutton110Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Prepare com.microsoft.projectoxford:speechrecognition:0.6.0" />
+                <option name="description" value="Prepare com.microsoft.projectoxford:speechrecognition:1.1.0" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="prepareComMicrosoftProjectoxfordSpeechrecognition060Library" />
+                <option name="name" value="prepareComMicrosoftProjectoxfordSpeechrecognition110Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
@@ -1538,9 +1493,9 @@
                 <option name="name" value="prepareComMelnykovFloatingactionbutton110Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Prepare com.microsoft.projectoxford:speechrecognition:0.6.0" />
+                <option name="description" value="Prepare com.microsoft.projectoxford:speechrecognition:1.1.0" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
-                <option name="name" value="prepareComMicrosoftProjectoxfordSpeechrecognition060Library" />
+                <option name="name" value="prepareComMicrosoftProjectoxfordSpeechrecognition110Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
@@ -1685,7 +1640,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="4431435757582" />
+        <entry key="$PROJECT_DIR$" value="4431436009795" />
       </map>
     </option>
     <option name="projectBuildClasspath">
@@ -1839,7 +1794,7 @@
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/external/lombok/lombok-ast/0.2.2/lombok-ast-0.2.2.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm-tree/4.0/asm-tree-4.0-sources.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm-tree/4.0/asm-tree-4.0.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.microsoft.projectoxford/speechrecognition/0.6.0/8e8c9a420b581150fa2872ec7ad2b77608f4aee9/speechrecognition-0.6.0.aar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.microsoft.projectoxford/speechrecognition/1.1.0/e8881e1b402fb6c8695e65cdcde91342b3d36311/speechrecognition-1.1.0.aar" />
                             <option value="$USER_HOME$/AppData/Local/Android/Sdk/extras/android/m2repository/com/android/support/appcompat-v7/21.0.2/appcompat-v7-21.0.2.aar" />
                             <option value="$USER_HOME$/AppData/Local/Android/Sdk/extras/android/m2repository/com/android/support/cardview-v7/21.0.3/cardview-v7-21.0.3.aar" />
                             <option value="$USER_HOME$/AppData/Local/Android/Sdk/extras/android/m2repository/com/android/support/recyclerview-v7/21.0.3/recyclerview-v7-21.0.3.aar" />
@@ -1979,7 +1934,12 @@
       <list>
         <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_record.xml" />
         <option value="$PROJECT_DIR$/app/build.gradle" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/blackmeow/gist/activities/MainActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/blackmeow/gist/RecordingService.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/blackmeow/gist/fragments/RecordFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/card_view.xml" />
       </list>
     </option>
   </component>
@@ -2038,6 +1998,10 @@
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -2049,8 +2013,40 @@
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="jniLibs" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="values" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderTypeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Gist" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layout" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderTypeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Gist" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -2069,6 +2065,42 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="gist" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Gist" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gist" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="activities" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Gist" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="manifests" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidManifestsGroupNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -2368,7 +2400,7 @@
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32935154" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.07679181" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -2435,17 +2467,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/blackmeow/gist/RecordingService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="141" column="30" selection-start-line="141" selection-start-column="30" selection-end-line="141" selection-end-column="30" />
-          <folding>
-            <element signature="e#3878#4301#0" expanded="true" />
-            <element signature="e#4300#4301#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-12.481482">
@@ -2454,19 +2475,79 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.6037736">
+          <caret line="5" column="157" selection-start-line="5" selection-start-column="157" selection-end-line="5" selection-end-column="157" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/blackmeow/gist/activities/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.413793">
+          <caret line="29" column="44" selection-start-line="29" selection-start-column="43" selection-end-line="29" selection-end-column="44" />
+          <folding>
+            <element signature="e#929#959#0" expanded="true" />
+            <element signature="e#1056#1106#0" expanded="true" />
+            <element signature="e#1140#1184#0" expanded="true" />
+            <element signature="e#1807#1843#0" expanded="true" />
+            <element signature="e#1861#1907#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.8846154">
+          <caret line="9" column="78" selection-start-line="9" selection-start-column="78" selection-end-line="9" selection-end-column="78" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/blackmeow/gist/fragments/RecordFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5442561">
-          <caret line="17" column="57" selection-start-line="17" selection-start-column="57" selection-end-line="17" selection-end-column="57" />
+        <state vertical-scroll-proportion="1.6859504">
+          <caret line="54" column="72" selection-start-line="54" selection-start-column="72" selection-end-line="54" selection-end-column="72" />
           <folding>
-            <element signature="e#4584#4614#0" expanded="true" />
-            <element signature="e#5064#5295#0" expanded="true" />
-            <element signature="e#5294#5295#0" expanded="true" />
-            <element signature="e#5563#5601#0" expanded="true" />
-            <element signature="e#5985#6018#0" expanded="true" />
-            <element signature="e#6564#6607#0" expanded="true" />
-            <element signature="e#6958#7000#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#3344#3555#0" expanded="true" />
+            <element signature="e#3554#3555#0" expanded="true" />
+            <element signature="e#3762#3978#0" expanded="true" />
+            <element signature="e#3977#3978#0" expanded="true" />
+            <element signature="e#4382#4412#0" expanded="true" />
+            <element signature="e#5861#5894#0" expanded="true" />
+            <element signature="e#6440#6483#0" expanded="true" />
+            <element signature="e#6834#6876#0" expanded="true" />
+            <element signature="e#9955#9956#0" expanded="true" />
+            <element signature="e#9985#9986#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/blackmeow/gist/RecordingService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8016529">
+          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2976#3013#0" expanded="true" />
+            <element signature="e#3505#3547#0" expanded="true" />
+            <element signature="e#4061#4484#0" expanded="true" />
+            <element signature="e#4483#4484#0" expanded="true" />
+            <element signature="e#4849#4891#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/card_view.xml">
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-30.038462">
+          <caret line="61" column="27" selection-start-line="61" selection-start-column="27" selection-end-line="61" selection-end-column="27" />
+          <folding />
         </state>
       </provider>
     </entry>

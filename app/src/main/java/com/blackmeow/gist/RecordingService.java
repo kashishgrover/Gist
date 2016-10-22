@@ -14,6 +14,8 @@ import android.util.Log;
 import android.widget.Toast;
 
 import com.blackmeow.gist.activities.MainActivity;
+import com.microsoft.cognitiveservices.speechrecognition.MicrophoneRecognitionClient;
+import com.microsoft.cognitiveservices.speechrecognition.SpeechRecognitionServiceFactory;
 
 import java.io.File;
 import java.io.IOException;
@@ -22,9 +24,6 @@ import java.util.Locale;
 import java.util.Timer;
 import java.util.TimerTask;
 
-/**
- * Created by Daniel on 12/28/2014.
- */
 public class RecordingService extends Service {
 
     private static final String LOG_TAG = "RecordingService";
@@ -44,6 +43,7 @@ public class RecordingService extends Service {
 
     private Timer mTimer = null;
     private TimerTask mIncrementTimerTask = null;
+    private MicrophoneRecognitionClient micClient;
 
     @Override
     public IBinder onBind(Intent intent) {

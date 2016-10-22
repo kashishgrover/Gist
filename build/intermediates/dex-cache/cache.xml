@@ -16,6 +16,13 @@
         <dex dex="C:\Users\Kashish Grover\Desktop\Gist\app\build\intermediates\pre-dexed\debug\classes-25fd9570ba5b0df591bf22b9749781686034ca70.jar" />
     </item>
     <item
+        jar="C:\Users\Kashish Grover\Desktop\Gist\app\build\intermediates\exploded-aar\com.microsoft.projectoxford\speechrecognition\1.1.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="576890675721e71dfd57bb76dc64e72825c635b3">
+        <dex dex="C:\Users\Kashish Grover\Desktop\Gist\app\build\intermediates\pre-dexed\arm\debug\classes-8d6256bad347d52d5c9115f42e06164506e4407b.jar" />
+    </item>
+    <item
         jar="C:\Users\Kashish Grover\Desktop\Gist\app\build\intermediates\exploded-aar\com.melnykov\floatingactionbutton\1.1.0\classes.jar"
         jumboMode="false"
         revision="21.1.2"
@@ -63,6 +70,13 @@
         revision="21.1.2"
         sha1="15ebf37e2dc7047e993afdfb308610e171bcea1b">
         <dex dex="C:\Users\Kashish Grover\Desktop\Gist\app\build\intermediates\pre-dexed\debug\classes-b445e2dd1358daf4f6a8df55b607580b35f72d50.jar" />
+    </item>
+    <item
+        jar="C:\Users\Kashish Grover\Desktop\Gist\app\build\intermediates\exploded-aar\com.microsoft.projectoxford\speechrecognition\1.1.0\libs\SpeechSDK.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="8f6ab181305becb7218adaa4c54fb9a2a6ce061a">
+        <dex dex="C:\Users\Kashish Grover\Desktop\Gist\app\build\intermediates\pre-dexed\arm\debug\SpeechSDK-64f4e0c7d6c64b14e8d88af69258a0191d762e38.jar" />
     </item>
 
 </items>
