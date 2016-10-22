@@ -14,6 +14,15 @@ import android.widget.Chronometer;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.microsoft.bing.speech.SpeechClientStatus;
+import com.microsoft.projectoxford.speechrecognition.DataRecognitionClient;
+import com.microsoft.projectoxford.speechrecognition.ISpeechRecognitionServerEvents;
+import com.microsoft.projectoxford.speechrecognition.MicrophoneRecognitionClient;
+import com.microsoft.projectoxford.speechrecognition.RecognitionResult;
+import com.microsoft.projectoxford.speechrecognition.RecognitionStatus;
+import com.microsoft.projectoxford.speechrecognition.SpeechRecognitionMode;
+import com.microsoft.projectoxford.speechrecognition.SpeechRecognitionServiceFactory;
+
 import com.blackmeow.gist.R;
 import com.blackmeow.gist.RecordingService;
 import com.melnykov.fab.FloatingActionButton;
@@ -127,16 +136,7 @@ public class RecordFragment extends Fragment {
             mChronometer.setOnChronometerTickListener(new Chronometer.OnChronometerTickListener() {
                 @Override
                 public void onChronometerTick(Chronometer chronometer) {
-                    if (mRecordPromptCount == 0) {
-                        mRecordingPrompt.setText(getString(R.string.record_in_progress) + ".");
-                    } else if (mRecordPromptCount == 1) {
-                        mRecordingPrompt.setText(getString(R.string.record_in_progress) + "..");
-                    } else if (mRecordPromptCount == 2) {
-                        mRecordingPrompt.setText(getString(R.string.record_in_progress) + "...");
-                        mRecordPromptCount = -1;
-                    }
-
-                    mRecordPromptCount++;
+                    mRecordingPrompt.setText("Hello");
                 }
             });
 

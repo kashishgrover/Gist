@@ -63,8 +63,15 @@
         android:textSize="17sp"
         android:textColor="#000000"
         android:fontFamily="sans-serif-condensed"
+        android:layout_below="@+id/recordProgressBar"
         android:layout_above="@+id/btnRecord"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="30dp" />
+        android:layout_marginBottom="40dp"
+        android:layout_marginTop="40dp"
+        android:layout_alignLeft="@+id/btnPause"
+        android:layout_alignStart="@+id/btnPause"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="80dp"
+        android:layout_marginLeft="80dp" />
 
 </RelativeLayout>
