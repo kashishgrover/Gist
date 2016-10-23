@@ -22,9 +22,11 @@ import com.microsoft.cognitiveservices.speechrecognition.MicrophoneRecognitionCl
 import com.microsoft.cognitiveservices.speechrecognition.SpeechRecognitionMode;
 import com.microsoft.cognitiveservices.speechrecognition.SpeechRecognitionServiceFactory;
 
+import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
+import java.io.FileWriter;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStreamWriter;
@@ -162,15 +164,33 @@ public class ViewText extends ActionBarActivity implements ISpeechRecognitionSer
 
         if (!isFinalDicationMessage) {
             this.WriteLine("********* Final n-BEST Results *********");
-            OutputStreamWriter outputStreamWriter = null;
+
+            String arr[] = fileName.split("\\.");
+
+            String path = Environment.getExternalStorageDirectory().getAbsolutePath()+"/gist/text/";
+            File pathfile = new File(path);
+            if(!pathfile.exists())
+            {
+                pathfile.mkdir();
+            }
+            path += arr[0]+".txt";
+            File file = new File(path);
+            BufferedWriter fbw = null;
             try {
-                outputStreamWriter = new OutputStreamWriter(this.openFileOutput("config.txt", Context.MODE_PRIVATE));
+                FileWriter fstream = new FileWriter(file,true);
+                fbw = new BufferedWriter(fstream);
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+
+            try {
+
                 for (int i = 0; i < response.Results.length; i++) {
                     this.WriteLine("[" + i + "]" + " Confidence=" + response.Results[i].Confidence +
                             " Text=\"" + response.Results[i].DisplayText + "\"");
                     //need to save the files now
-                    outputStreamWriter.append(response.Results[i].DisplayText);
-                    outputStreamWriter.close();
+                    fbw.write(response.Results[i].DisplayText);
+                    fbw.close();
                 }
             } catch (FileNotFoundException e) {
                 e.printStackTrace();
@@ -275,13 +295,6 @@ public class ViewText extends ActionBarActivity implements ISpeechRecognitionSer
         protected Void doInBackground(Void... params) {
             audioformat = new SpeechAudioFormat();
             try {
-                // Note for wave files, we can just send data from the file right to the server.
-                // In the case you are not an audio file in wave format, and instead you have just
-                // raw data (for example audio coming over bluetooth), then before sending up any
-                // audio data, you must first send up an SpeechAudioFormat descriptor to describe
-                // the layout and format of your raw audio data via DataRecognitionClient's sendAudioFormat() method.
-                // String filename = recoMode == SpeechRecognitionMode.ShortPhrase ? "whatstheweatherlike.wav" : "batman.wav";
-
                 String path = Environment.getExternalStorageDirectory().getAbsolutePath();
                 path += "/gist/"+fileName;
                 File file = new File(path);
