@@ -32,7 +32,7 @@
         android:layout_marginTop="16dp"
         android:gravity="center"
         android:paddingBottom="8dp"
-        android:text="Click to record"
+        android:text="Record"
         android:textAppearance="?android:textAppearanceMedium"
         android:textColor="@android:color/black"/>
     <Button
@@ -40,7 +40,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:text="Pause Recording"/>
+        android:text="Pause Recording"
+        android:visibility="gone"/>
 
     <LinearLayout
         android:id="@+id/containerView"
@@ -62,7 +63,7 @@
           android:layout_height="wrap_content"
           android:layout_marginTop="40dp"
           android:paddingBottom="5dp"
-          android:src="@drawable/ic_stop"/>
+          android:src="@drawable/stop"/>
     </LinearLayout>
 
 

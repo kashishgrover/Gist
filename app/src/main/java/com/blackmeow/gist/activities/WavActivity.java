@@ -67,7 +67,7 @@ public class WavActivity extends ActionBarActivity {
         recorder = OmRecorder.wav(
                 new PullTransport.Default(mic(), new PullTransport.OnAudioChunkPulledListener() {
                     @Override public void onAudioChunkPulled(AudioChunk audioChunk) {
-                        //animateVoice((float) (audioChunk.maxAmplitude() / 200.0));
+                        animateVoice((float) (audioChunk.maxAmplitude() / 200.0));
                     }
                 }), file());
     }

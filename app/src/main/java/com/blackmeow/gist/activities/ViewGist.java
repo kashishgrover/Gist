@@ -106,7 +106,7 @@ public class ViewGist extends ActionBarActivity {
             int x = 0;
             while ((x = fin.read()) != -1) {
                 Log.i(">>", ((char) x) + "");
-                fulltext = fulltext+((char)x);
+                fulltext = fulltext + ((char) x);
             }
         } catch (FileNotFoundException e) {
             e.printStackTrace();
@@ -115,7 +115,7 @@ public class ViewGist extends ActionBarActivity {
         }
         textview2.setText(fulltext);
 
-        List<String> k= null;
+        List<String> k = null;
         try {
             k = new GetKeywords().execute(fulltext).get();
         } catch (InterruptedException e) {
@@ -123,17 +123,16 @@ public class ViewGist extends ActionBarActivity {
         } catch (ExecutionException e) {
             e.printStackTrace();
         }
-        String keys[]=new String[k.size()];
-        keys=k.toArray(keys);
-        com.blackmeow.gist.activities.Summary obj=new com.blackmeow.gist.activities.Summary(keys,fulltext);
-        com.blackmeow.gist.activities.Sentence ans[]=obj.getSentences();
-        String b="";
+        String keys[] = new String[k.size()];
+        keys = k.toArray(keys);
+        com.blackmeow.gist.activities.Summary obj = new com.blackmeow.gist.activities.Summary(keys, fulltext);
+        com.blackmeow.gist.activities.Sentence ans[] = obj.getSentences();
+        String b = "";
 
-        for(com.blackmeow.gist.activities.Sentence a:ans)
-        {
-            b=b+a.normal+". ";
+        for (com.blackmeow.gist.activities.Sentence a : ans) {
+            b = b + a.normal + ". ";
         }
-        Log.i("FINAL ANSWER",b);
+        Log.i("FINAL ANSWER", b);
 
         summary_view.setText(b);
 

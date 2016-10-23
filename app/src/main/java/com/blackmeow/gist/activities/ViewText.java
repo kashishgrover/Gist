@@ -175,6 +175,12 @@ public class ViewText extends ActionBarActivity implements ISpeechRecognitionSer
             }
             path += arr[0]+".txt";
             File file = new File(path);
+            if(file.exists())
+            {
+                file.delete();
+                file = new File(path);
+            }
+
             BufferedWriter fbw = null;
             try {
                 FileWriter fstream = new FileWriter(file,true);
