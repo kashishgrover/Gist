@@ -25,6 +25,8 @@ public class WavActivity extends ActionBarActivity {
     Recorder recorder;
     ImageView recordButton;
 
+    public static int count = 0;
+
     private String mFileName = null;
     private String mFilePath = null;
 
@@ -81,7 +83,6 @@ public class WavActivity extends ActionBarActivity {
 
     @NonNull
     private File file() {
-        int count = 0;
         File f;
         do{
             count++;

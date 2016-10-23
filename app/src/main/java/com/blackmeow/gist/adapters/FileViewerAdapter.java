@@ -14,6 +14,7 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -22,6 +23,8 @@ import android.text.format.DateUtils;
 import com.blackmeow.gist.DBHelper;
 import com.blackmeow.gist.R;
 import com.blackmeow.gist.RecordingItem;
+import com.blackmeow.gist.activities.ViewGist;
+import com.blackmeow.gist.activities.ViewText;
 import com.blackmeow.gist.fragments.PlaybackFragment;
 import com.blackmeow.gist.listeners.OnDatabaseChangedListener;
 
@@ -50,6 +53,29 @@ public class FileViewerAdapter extends RecyclerView.Adapter<FileViewerAdapter.Re
 
     @Override
     public void onBindViewHolder(final RecordingsViewHolder holder, int position) {
+        Button b1=(Button)holder.b1;
+        Button b2=(Button)holder.b2;
+        final TextView tv=(TextView)holder.tv;
+
+        b1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Toast.makeText(mContext, "View Text", Toast.LENGTH_SHORT).show();
+                Intent i = new Intent(mContext, ViewText.class);
+                i.putExtra("File Name", tv.getText().toString());
+                mContext.startActivity(i);
+            }
+        });
+
+        b2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Toast.makeText(mContext, "View Text", Toast.LENGTH_SHORT).show();
+                Intent i = new Intent(mContext, ViewText.class);
+                i.putExtra("File Name", tv.getText().toString());
+                mContext.startActivity(i);
+            }
+        });
 
         item = getItem(position);
         long itemDuration = item.getLength();
@@ -131,7 +157,8 @@ public class FileViewerAdapter extends RecyclerView.Adapter<FileViewerAdapter.Re
     }
 
     @Override
-    public RecordingsViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
+
+    public RecordingsViewHolder onCreateViewHolder(final ViewGroup parent, int viewType) {
 
         View itemView = LayoutInflater.
                 from(parent.getContext()).
@@ -139,14 +166,21 @@ public class FileViewerAdapter extends RecyclerView.Adapter<FileViewerAdapter.Re
 
         mContext = parent.getContext();
 
+
+
+
         return new RecordingsViewHolder(itemView);
     }
+
+
 
     public static class RecordingsViewHolder extends RecyclerView.ViewHolder {
         protected TextView vName;
         protected TextView vLength;
         protected TextView vDateAdded;
+        protected TextView tv;
         protected View cardView;
+        protected Button b1,b2;
 
         public RecordingsViewHolder(View v) {
             super(v);
@@ -154,6 +188,9 @@ public class FileViewerAdapter extends RecyclerView.Adapter<FileViewerAdapter.Re
             vLength = (TextView) v.findViewById(R.id.file_length_text);
             vDateAdded = (TextView) v.findViewById(R.id.file_date_added_text);
             cardView = v.findViewById(R.id.card_view);
+            b1=(Button)v.findViewById(R.id.button);
+            b2=(Button)v.findViewById(R.id.button2);
+            tv=(TextView)v.findViewById(R.id.file_name_text);
         }
     }
 
