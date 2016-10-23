@@ -2,81 +2,88 @@
 <items version="2" >
 
     <item
+        jar="C:\Users\Kashish Grover\Desktop\asdf\gist\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\libs\internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="C:\Users\Kashish Grover\Desktop\asdf\gist\app\build\intermediates\pre-dexed\arm\debug\internal_impl-21.0.3-2cc883ccb116eb95df22e2cd599e481412cd2710.jar" />
+    </item>
+    <item
+        jar="C:\Users\Kashish Grover\Desktop\asdf\gist\app\build\intermediates\exploded-aar\com.microsoft.projectoxford\speechrecognition\1.1.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="576890675721e71dfd57bb76dc64e72825c635b3">
+        <dex dex="C:\Users\Kashish Grover\Desktop\asdf\gist\app\build\intermediates\pre-dexed\arm\debug\classes-9eb8632dfb6fdad40557cb3a18c7651ce1bec1b8.jar" />
+    </item>
+    <item
         jar="C:\Users\Kashish Grover\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\21.0.3\support-annotations-21.0.3.jar"
         jumboMode="false"
         revision="21.1.2"
         sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
-        <dex dex="C:\Users\Kashish Grover\Desktop\Gist\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.3-f40b59c1ff31e5781aa33a401a26c8a43446babf.jar" />
+        <dex dex="C:\Users\Kashish Grover\Desktop\asdf\gist\app\build\intermediates\pre-dexed\arm\debug\support-annotations-21.0.3-f40b59c1ff31e5781aa33a401a26c8a43446babf.jar" />
     </item>
     <item
-        jar="C:\Users\Kashish Grover\Desktop\Gist\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\21.0.3\classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="00b0b7233e1ec64acebfac40d4983d32d4712426">
-        <dex dex="C:\Users\Kashish Grover\Desktop\Gist\app\build\intermediates\pre-dexed\debug\classes-25fd9570ba5b0df591bf22b9749781686034ca70.jar" />
-    </item>
-    <item
-        jar="C:\Users\Kashish Grover\Desktop\Gist\app\build\intermediates\exploded-aar\com.microsoft.projectoxford\speechrecognition\1.1.0\classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="576890675721e71dfd57bb76dc64e72825c635b3">
-        <dex dex="C:\Users\Kashish Grover\Desktop\Gist\app\build\intermediates\pre-dexed\arm\debug\classes-8d6256bad347d52d5c9115f42e06164506e4407b.jar" />
-    </item>
-    <item
-        jar="C:\Users\Kashish Grover\Desktop\Gist\app\build\intermediates\exploded-aar\com.melnykov\floatingactionbutton\1.1.0\classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="ee9ae2b87d57a33a7381c75d54db12bdf2995656">
-        <dex dex="C:\Users\Kashish Grover\Desktop\Gist\app\build\intermediates\pre-dexed\debug\classes-38d302218a85080a47ca055175d9ff39591f9ed8.jar" />
-    </item>
-    <item
-        jar="C:\Users\Kashish Grover\Desktop\Gist\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
-        <dex dex="C:\Users\Kashish Grover\Desktop\Gist\app\build\intermediates\pre-dexed\debug\classes-e21ef7e31debc99eb93fb527dd907d62cae5ee50.jar" />
-    </item>
-    <item
-        jar="C:\Users\Kashish Grover\Desktop\Gist\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.2\classes.jar"
+        jar="C:\Users\Kashish Grover\Desktop\asdf\gist\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.2\classes.jar"
         jumboMode="false"
         revision="21.1.2"
         sha1="7ae2d38807a43b2f2185ff4089a92c790b579e54">
-        <dex dex="C:\Users\Kashish Grover\Desktop\Gist\app\build\intermediates\pre-dexed\debug\classes-c2b87f6312c385fb9cfc30cc5d11c7345a40464b.jar" />
+        <dex dex="C:\Users\Kashish Grover\Desktop\asdf\gist\app\build\intermediates\pre-dexed\arm\debug\classes-8af27503ec282f6e49cb8ee3ea59b421c3c94032.jar" />
+    </item>
+    <item
+        jar="C:\Users\Kashish Grover\Desktop\asdf\gist\app\build\intermediates\exploded-aar\com.kailashdabhi\om-recorder\1.1.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="cc612fa2610b0741f55190e7bc73034144873adb">
+        <dex dex="C:\Users\Kashish Grover\Desktop\asdf\gist\app\build\intermediates\pre-dexed\arm\debug\classes-2287921a5fdcb180425243cb02293bf1829b8f84.jar" />
+    </item>
+    <item
+        jar="C:\Users\Kashish Grover\Desktop\asdf\gist\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\21.0.3\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="00b0b7233e1ec64acebfac40d4983d32d4712426">
+        <dex dex="C:\Users\Kashish Grover\Desktop\asdf\gist\app\build\intermediates\pre-dexed\arm\debug\classes-3bfa5380341aef5096e4c15425bd046a59d5eb48.jar" />
+    </item>
+    <item
+        jar="C:\Users\Kashish Grover\Desktop\asdf\gist\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\21.0.3\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4b8945fc23a7461c6fdde15753456d64b0a9358b">
+        <dex dex="C:\Users\Kashish Grover\Desktop\asdf\gist\app\build\intermediates\pre-dexed\arm\debug\classes-cf56a49bbae2ff5d4db9312e2404b1c61de1c193.jar" />
     </item>
     <item
         jar="C:\Users\Kashish Grover\.gradle\caches\modules-2\files-2.1\com.nineoldandroids\library\2.4.0\e9b63380f3a242dbdbf103a2355ad7e43bad17cb\library-2.4.0.jar"
         jumboMode="false"
         revision="21.1.2"
         sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
-        <dex dex="C:\Users\Kashish Grover\Desktop\Gist\app\build\intermediates\pre-dexed\debug\library-2.4.0-065f52569171dc6608c7a48142e92df5146edf3c.jar" />
+        <dex dex="C:\Users\Kashish Grover\Desktop\asdf\gist\app\build\intermediates\pre-dexed\arm\debug\library-2.4.0-065f52569171dc6608c7a48142e92df5146edf3c.jar" />
     </item>
     <item
-        jar="C:\Users\Kashish Grover\Desktop\Gist\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\libs\internal_impl-21.0.3.jar"
+        jar="C:\Users\Kashish Grover\Desktop\asdf\gist\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\classes.jar"
         jumboMode="false"
         revision="21.1.2"
-        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
-        <dex dex="C:\Users\Kashish Grover\Desktop\Gist\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-3487d8fce2df095481e5a1b64bd41a8155c7f098.jar" />
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="C:\Users\Kashish Grover\Desktop\asdf\gist\app\build\intermediates\pre-dexed\arm\debug\classes-17007dbbbe13b7503c3491b5161e70b51866f4b5.jar" />
     </item>
     <item
-        jar="C:\Users\Kashish Grover\Desktop\Gist\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\21.0.3\classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="4b8945fc23a7461c6fdde15753456d64b0a9358b">
-        <dex dex="C:\Users\Kashish Grover\Desktop\Gist\app\build\intermediates\pre-dexed\debug\classes-b7d90b711d723ab9f791b13f2b777c0173cd11b0.jar" />
-    </item>
-    <item
-        jar="C:\Users\Kashish Grover\Desktop\Gist\app\build\intermediates\exploded-aar\com.jpardogo.materialtabstrip\library\1.0.6\classes.jar"
+        jar="C:\Users\Kashish Grover\Desktop\asdf\gist\app\build\intermediates\exploded-aar\com.jpardogo.materialtabstrip\library\1.0.6\classes.jar"
         jumboMode="false"
         revision="21.1.2"
         sha1="15ebf37e2dc7047e993afdfb308610e171bcea1b">
-        <dex dex="C:\Users\Kashish Grover\Desktop\Gist\app\build\intermediates\pre-dexed\debug\classes-b445e2dd1358daf4f6a8df55b607580b35f72d50.jar" />
+        <dex dex="C:\Users\Kashish Grover\Desktop\asdf\gist\app\build\intermediates\pre-dexed\arm\debug\classes-e1c6a29e082dae76376236c6aca245cf61b5edb7.jar" />
     </item>
     <item
-        jar="C:\Users\Kashish Grover\Desktop\Gist\app\build\intermediates\exploded-aar\com.microsoft.projectoxford\speechrecognition\1.1.0\libs\SpeechSDK.jar"
+        jar="C:\Users\Kashish Grover\Desktop\asdf\gist\app\build\intermediates\exploded-aar\com.melnykov\floatingactionbutton\1.1.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="ee9ae2b87d57a33a7381c75d54db12bdf2995656">
+        <dex dex="C:\Users\Kashish Grover\Desktop\asdf\gist\app\build\intermediates\pre-dexed\arm\debug\classes-94a55bc7e58f1d9c8413cac03595a75e782b5ebe.jar" />
+    </item>
+    <item
+        jar="C:\Users\Kashish Grover\Desktop\asdf\gist\app\build\intermediates\exploded-aar\com.microsoft.projectoxford\speechrecognition\1.1.0\libs\SpeechSDK.jar"
         jumboMode="false"
         revision="21.1.2"
         sha1="8f6ab181305becb7218adaa4c54fb9a2a6ce061a">
-        <dex dex="C:\Users\Kashish Grover\Desktop\Gist\app\build\intermediates\pre-dexed\arm\debug\SpeechSDK-64f4e0c7d6c64b14e8d88af69258a0191d762e38.jar" />
+        <dex dex="C:\Users\Kashish Grover\Desktop\asdf\gist\app\build\intermediates\pre-dexed\arm\debug\SpeechSDK-d1506ea975bbf884017f37675ad48a129efd9e15.jar" />
     </item>
 
 </items>

@@ -11,15 +11,15 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:fab_colorNormal="@color/primary"
-        android:layout_marginBottom="10dp"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:src="@drawable/ic_mic_white_36dp" />
+        android:src="@drawable/ic_mic_white_36dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
 
     <Chronometer
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/chronometer"
+        android:visibility="invisible"
         android:textSize="30sp"
         android:fontFamily="sans-serif-light"
         android:layout_alignTop="@+id/recordProgressBar"
@@ -31,6 +31,7 @@
         android:id="@+id/recordProgressBar"
         android:layout_width="100dp"
         android:layout_height="100dp"
+        android:visibility="invisible"
         android:progressDrawable="@drawable/record_progress_bar"
         android:background="@drawable/record_progress_bar_background"
         android:indeterminate="false"
@@ -51,12 +52,14 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_alignParentBottom="true"
+        android:visibility="invisible"
         android:layout_marginBottom="10dp"
         android:layout_marginLeft="10dp"
         android:layout_marginStart="10dp"/>
 
     <TextView
         android:layout_width="250dp"
+        android:visibility="invisible"
         android:layout_height="300dp"
         android:id="@+id/recording_status_text"
         android:text="@string/record_prompt"

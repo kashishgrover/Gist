@@ -19,6 +19,7 @@ android {
 
     sourceSets {
         main {
+            assets.srcDirs = ['assets']
             jniLibs.srcDir '../../jniLibs/libs'
         }
     }
@@ -49,4 +50,5 @@ dependencies {
     compile 'com.android.support:recyclerview-v7:21.0.+'
     compile 'com.melnykov:floatingactionbutton:1.1.0'
     compile 'com.jpardogo.materialtabstrip:library:1.0.6'
+    compile 'com.kailashdabhi:om-recorder:1.1.0'
 }

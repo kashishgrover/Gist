@@ -28,6 +28,7 @@ import android.widget.Toast;
 
 import com.blackmeow.gist.R;
 import com.blackmeow.gist.RecordingService;
+import com.blackmeow.gist.activities.WavActivity;
 import com.melnykov.fab.FloatingActionButton;
 
 import java.io.File;
@@ -87,7 +88,9 @@ public class RecordFragment extends Fragment{//} implements ISpeechRecognitionSe
         mRecordButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                onRecord(mStartRecording);
+                //onRecord(mStartRecording);
+                Intent A = new Intent(getActivity(), WavActivity.class);
+                startActivity(A);
                 mStartRecording = !mStartRecording;
             }
         });
