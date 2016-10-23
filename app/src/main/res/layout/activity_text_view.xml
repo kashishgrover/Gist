@@ -17,18 +17,8 @@
         android:layout_below="@+id/textView2"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="145dp"
-        android:text="View Gist" />
-
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginLeft="23dp"
-        android:layout_marginStart="23dp"
-        android:text="File Name" />
+        android:text="View Gist"
+        android:visibility="gone"/>
 
     <EditText
         android:id="@+id/textView2"
@@ -38,7 +28,8 @@
         android:layout_alignParentStart="true"
         android:layout_below="@+id/textView3"
         android:layout_marginTop="120dp"
-        android:text="TextView" />
+        android:text="EditText"
+        android:layout_alignParentBottom="true" />
 
     <TextView
         android:id="@+id/textView4"
@@ -46,9 +37,16 @@
         android:layout_height="wrap_content"
         android:text="your file name"
         android:layout_alignParentTop="true"
-        android:layout_alignLeft="@+id/button3"
-        android:layout_alignStart="@+id/button3"
-        android:layout_marginLeft="50dp"
-        android:layout_marginStart="50dp" />
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="File Name"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 
 </RelativeLayout>

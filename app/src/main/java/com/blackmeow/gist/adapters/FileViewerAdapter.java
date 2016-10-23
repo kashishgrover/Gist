@@ -70,8 +70,8 @@ public class FileViewerAdapter extends RecyclerView.Adapter<FileViewerAdapter.Re
         b2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(mContext, "View Text", Toast.LENGTH_SHORT).show();
-                Intent i = new Intent(mContext, ViewText.class);
+                Toast.makeText(mContext, "View Gist", Toast.LENGTH_SHORT).show();
+                Intent i = new Intent(mContext, ViewGist.class);
                 i.putExtra("File Name", tv.getText().toString());
                 mContext.startActivity(i);
             }

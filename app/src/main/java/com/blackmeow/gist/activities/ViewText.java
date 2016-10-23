@@ -214,7 +214,7 @@ public class ViewText extends ActionBarActivity implements ISpeechRecognitionSer
 
     public void onPartialResponseReceived(String response) {
         //this.WriteLine("--- Partial result received by onPartialResponseReceived() ---");
-        Log.i("TAG:",response);
+        this.WriteLine(response);
     }
 
     public void onError(final int errorCode, final String response) {
